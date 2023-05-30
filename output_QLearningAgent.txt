@@ -1,0 +1,77 @@
+
+
+ Testing the QLearningAgent on the BridgeGrid 
+
+ 
+ q-values 
+ at (0, 1) for moving exit : -99.999988 
+at (0, 2) for moving exit : -99.609375 
+at (0, 3) for moving exit : -98.437500 
+at (0, 4) for moving exit : -98.437500 
+at (0, 5) for moving exit : -93.750000 
+at (1, 0) for moving exit : 1.000000 
+at (1, 1) for moving north : -69.609375 
+at (1, 1) for moving west : -67.342539 
+at (1, 1) for moving south : -69.609375 
+at (1, 1) for moving east : -17.594010 
+at (1, 2) for moving north : -68.906250 
+at (1, 2) for moving west : -70.864905 
+at (1, 2) for moving south : -69.960938 
+at (1, 2) for moving east : -7.984702 
+at (1, 3) for moving north : -61.875000 
+at (1, 3) for moving west : -63.650966 
+at (1, 3) for moving south : -72.351562 
+at (1, 3) for moving east : 2.824996 
+at (1, 4) for moving north : -70.312500 
+at (1, 4) for moving west : -62.478106 
+at (1, 4) for moving south : -64.671308 
+at (1, 4) for moving east : 7.657323 
+at (1, 5) for moving north : -50.625000 
+at (1, 5) for moving west : -62.163105 
+at (1, 5) for moving south : -68.664612 
+at (1, 5) for moving east : 8.951111 
+at (1, 6) for moving exit : 9.999962 
+at (2, 1) for moving exit : -99.999237 
+at (2, 2) for moving exit : -99.902344 
+at (2, 3) for moving exit : -99.804688 
+at (2, 4) for moving exit : -99.609375 
+at (2, 5) for moving exit : -99.609375 
+values 
+ at (-1, -1) : 0.000000
+ at (0, 1) : -99.999988
+ at (0, 2) : -99.609375
+ at (0, 3) : -98.437500
+ at (0, 4) : -98.437500
+ at (0, 5) : -93.750000
+ at (1, 0) : 1.000000
+ at (1, 1) : -17.594010
+ at (1, 2) : -7.984702
+ at (1, 3) : 2.824996
+ at (1, 4) : 7.657323
+ at (1, 5) : 8.951111
+ at (1, 6) : 9.999962
+ at (2, 1) : -99.999237
+ at (2, 2) : -99.902344
+ at (2, 3) : -99.804688
+ at (2, 4) : -99.609375
+ at (2, 5) : -99.609375
+ 
+ policy 
+ at (-1, -1) move None 
+at (0, 1) move exit 
+at (0, 2) move exit 
+at (0, 3) move exit 
+at (0, 4) move exit 
+at (0, 5) move exit 
+at (1, 0) move exit 
+at (1, 1) move east 
+at (1, 2) move east 
+at (1, 3) move east 
+at (1, 4) move east 
+at (1, 5) move east 
+at (1, 6) move exit 
+at (2, 1) move exit 
+at (2, 2) move exit 
+at (2, 3) move exit 
+at (2, 4) move exit 
+at (2, 5) move exit 

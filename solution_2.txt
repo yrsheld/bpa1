@@ -1,0 +1,24 @@
+Task 2 - Value Iteration
+
+Answers:
+
+
+6) 	Rounds of value iteration for start state to become non-zero: 9 (After 9th iteration: 0.051999)
+    Why? xxx
+
+7) 	Which parameter to change: noise
+	Value of the changed parameter: <= 0.01
+
+8)	Parameter values producing optimal policy types:
+	    a) -n 0.01 -d 0.3
+	    b) -n 0.2  -d 0.3
+	    c) -n 0.01 -d 0.9
+	    d) -n 0.2  -d 0.9
+	    e) -n 0.6  -d 0.9
+
+9) 	Pros: 								Cons:
+		-									-
+		-									-
+		-									-
+		-									-
+
