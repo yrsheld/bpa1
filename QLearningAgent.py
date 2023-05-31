@@ -76,11 +76,8 @@ class QLearningAgent(Agent):
         """ Choose an action: this will require that your agent balance exploration and exploitation as appropriate. """
         # *********
         # TODO 3.4.
-        if state not in self.Q.keys():
-            return self.getRandomAction(state)
-
         # epsilon greedy policy
-        if np.random.rand() < self.epsilon:
+        if np.random.rand() < self.epsilon or state not in self.Q.keys():
             return self.getRandomAction(state)
         else:
             return self.getPolicy(state)
