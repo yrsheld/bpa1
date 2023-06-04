@@ -77,7 +77,7 @@ class QLearningAgent(Agent):
         # *********
         # TODO 3.4.
         # epsilon greedy policy
-        if np.random.rand() < self.epsilon or state not in self.Q.keys():
+        if np.random.rand() < self.epsilon:
             return self.getRandomAction(state)
         else:
             return self.getPolicy(state)
