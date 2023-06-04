@@ -3,22 +3,24 @@ Task 2 - Value Iteration
 Answers:
 
 
-6) 	Rounds of value iteration for start state to become non-zero: 9 (After 9th iteration: 0.051999)
-    Why? xxx
+6) 	Rounds of value iteration for start state to become non-zero: 10 (After 10th iteration: 0.051999)
+    Why? Because value iteration truncates the policy evaluation and thus often need more iterations to converge.
 
 7) 	Which parameter to change: noise
 	Value of the changed parameter: <= 0.01
 
 8)	Parameter values producing optimal policy types:
-	    a) -n 0.01 -d 0.3
+	    a) -n 0    -d 0.3
 	    b) -n 0.2  -d 0.3
-	    c) -n 0.01 -d 0.9
+	    c) -n 0    -d 0.9
 	    d) -n 0.2  -d 0.9
 	    e) -n 0.6  -d 0.9
 
-9) 	Pros: 								Cons:
-		-									-
-		-									-
-		-									-
-		-									-
+9) 	Pros: 								         Cons:
+	- Requires fewer iterations to converge	     - Computationally more expensive due to policy evaluation, especially for large state space
+	-									         - Need to decide the number of iterations for policy evaluation, i.e., need one more hyperparameter
+	-									         -
+	-									         -
 
+Policy iteration solves Bellman equation iteratively for policy evaluation, then perform greedy policy improvement. 
+Value iteration turns Bellman optimality equation into an update rule, combining policy evaluation and improvement into one step.
