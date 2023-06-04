@@ -12,5 +12,9 @@ Answers:
         1) Value of the start state after 300 episodes: 4.31
         2) Average returns from the start state: -13.46
 
+Value of start state after 300 episodes is much better than the average return.
+The reason is that, when the Q-Learning agent starts the search, it acts randomly and thus easily get negative rewards.
+Therefore, the agent may get many negative rewards at the beginning of a few episodes but would then gradually improve as the training process goes.
+
 8)  Faster converging algorithm? Value iteration
 

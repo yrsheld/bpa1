@@ -16,11 +16,11 @@ Answers:
 	    d) -n 0.2  -d 0.9
 	    e) -n 0.6  -d 0.9
 
-9) 	Pros: 								         Cons:
+9) 	Pros: 				             Cons:
 	- Requires fewer iterations to converge	     - Computationally more expensive due to policy evaluation, especially for large state space
-	-									         - Need to decide the number of iterations for policy evaluation, i.e., need one more hyperparameter
-	-									         -
-	-									         -
+	-		                             - Need to decide the number of iterations for policy evaluation, i.e., need one more hyperparameter
+	-                                            -
+	-					     -
 
 Policy iteration solves Bellman equation iteratively for policy evaluation, then perform greedy policy improvement. 
 Value iteration turns Bellman optimality equation into an update rule, combining policy evaluation and improvement into one step.
